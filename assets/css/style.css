@@ -1,0 +1,92 @@
+@font-face{
+    font-family:vazir-medium ;
+    src: url("../fonts/Vazir-Medium.eot") format("eot"),
+    url("../fonts/Vazir-Medium.woff") format("woff"),
+    url("../fonts/Vazir-Medium.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+  }
+  *,
+  body {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: vazir-medium;
+  }
+  
+  body{
+      direction: rtl;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul,
+  ol,
+  li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+
+
+
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .course-title{
+      display: flex;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 34px;
+      color: #000;
+      margin-top: 100px;
+  }
+  .container{
+      max-width: 450px;
+      background-color: #fff;
+      box-shadow: 0 0 9px 0px rgba(0, 0, 0, .3);
+      margin: 100px auto;
+      padding: 15px;
+      border-radius: 5px;
+  }
+  .input-group{
+      position: relative;
+  }
+  .input-group input{
+      width: 100%;
+      height: 40px;
+      border: 1px solid #efefef;
+      outline: 0;
+      padding: 0 10px;
+      margin: 25px 0;
+  }
+  .input-group .btn{
+      background-color: rgb(27, 226, 27);
+      color: #fff;
+      font-size: 18px;
+      padding: 5px 10px;
+      margin-top: 20px;
+      cursor: pointer;
+      transition: all .5s ease-out;
+  }
+  .input-group .btn:hover{
+      background-color: rgb(21, 197, 21);
+  }
+  .input-group i#show-pass{
+      position: absolute;
+      font-size: 18px;
+      top: 35px;
+      left: 12px;
+      color: #807d7d;
+      cursor: pointer;
+      transition: all 1s ease;
+  }
+  .input-group i#show-pass:hover{
+      color: #3987fc;
+  }
+
